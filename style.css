@@ -489,22 +489,5 @@ body {
 }
 
 /* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: #ecf0f1;
-        --text-primary: #ecf0f1;
-        --text-secondary: #bdc3c7;
-        --background-primary: #1a1a1a;
-        --background-secondary: #2c2c2c;
-    }
-    
-    .link-button {
-        background: #2c2c2c;
-        border-color: #404040;
-    }
-    
-    .floating-shape {
-        background: linear-gradient(45deg, rgba(52, 152, 219, 0.05), rgba(155, 89, 182, 0.05));
-    }
-}
+
 /* Updated: Thu Jul 10 04:07:05 PM UTC 2025 */
